@@ -1,0 +1,446 @@
+{
+  "availableTags": [
+    "case",
+    "wzorce-projektowe",
+    "uml",
+    "model-kaskadowy",
+    "metodyka-obiektowa",
+    "kol1",
+    "kol2"
+  ],
+  "questions": [
+    {
+      "content": "Podaj kryteria o. wysokiej jakości:",
+      "answers": [
+        "Zgodne z wymaganiami użytkownika",
+        "Niezawodne",
+        "Efektywne",
+        "Łatwe w konserwacji",
+        "Ergonomiczne"
+      ],
+      "tags": [
+        "kol1"
+      ]
+    },
+    {
+      "content": "Do czego służy diagram harmonogramowania?",
+      "answers": [
+        "Obrazuje zachowanie obiektu z naciskiem na dokładne określenie czasu, w którym obiekt jest poddawany jakimś zmianom lub sam wykonuje jakieś działanie"
+      ],
+      "tags": [
+        "kol1",
+        "uml"
+      ]
+    },
+    {
+      "content": "Który diagram pozwala opisać interakcje pomiędzy klasyfikatorami?",
+      "answers": [
+        "Diagram sekwencji"
+      ],
+      "tags": [
+        "kol1",
+        "uml"
+      ]
+    },
+    {
+      "content": "Podaj co najmniej 3 narzędzia CASE używane w inżynierii oprogramowania do projektowania oprogramowania",
+      "answers": [
+        "3 typy: Lower, Middle, Upper",
+        "Narzędzia: widoki, diagramy, słownik danych, repozytorium, encyklopedia"
+      ],
+      "tags": [
+        "kol1",
+        "case"
+      ]
+    },
+    {
+      "content": "Podaj elementy diagramu czynności",
+      "answers": [
+        "Akcje i czynności, Przejścia, Metasymbole dla zobrazowania procesów warunkowych i współbieżnych, Czasami obiekty, Może zawierać notatki i ograniczenia"
+      ],
+      "tags": [
+        "kol1",
+        "uml"
+      ]
+    },
+    {
+      "content": "Na jakich diagramach UML możemy stosować obiekty aktywne?",
+      "answers": [
+        "Diagram interakcji/komunikacji"
+      ],
+      "tags": [
+        "kol1",
+        "uml"
+      ]
+    },
+    {
+      "content": "Ograniczenia na diagramach",
+      "answers": [
+        "?"
+      ],
+      "tags": [
+        "kol1",
+        "uml"
+      ]
+    },
+    {
+      "content": "Wymień diagramy występujące w UML 2.0.",
+      "answers": [
+        "diagram klas",
+        "diagram obiektów",
+        "diagram przypadków użycia",
+        "diagram pakietów",
+        "diagram sekwencji",
+        "diagram komunikacji",
+        "diagram maszyny stanowej",
+        "diagram czynności",
+        "diagram przebiegów czasowych",
+        "diagram przeglądu interakcji"
+      ],
+      "tags": [
+        "kol1",
+        "uml"
+      ]
+    },
+    {
+      "content": "Do czego służy io (inżynieria oprogramowania)?",
+      "answers": [
+        "Określenia cech dobrego programu, poprawy produktywności, dostarczenia narzędzi tworzenia dobrych programów"
+      ],
+      "tags": [
+        "kol1"
+      ]
+    },
+    {
+      "content": "Wymień rodzaje zdarzeń, które można stosować na diagramie maszyny stanowej",
+      "answers": [
+        "Asynchroniczne",
+        "Synchroniczne",
+        "Zdarzenia zewnętrzne",
+        "Zdarzenia wewnętrzne"
+      ],
+      "tags": [
+        "kol1",
+        "uml"
+      ]
+    },
+    {
+      "content": "Na którym diagramie nie można umieszczać notatek?",
+      "answers": [
+        "Przepływu informacji",
+        "Manifestowania",
+        "Użycia współpracy",
+        "Struktury wewnętrznej",
+        "Modeli",
+        "Profili",
+        "Przebiegów czasowych",
+        "Pakietów",
+        "Maszyny stanowej",
+        "Komunikacji"
+      ],
+      "tags": [
+        "kol1",
+        "uml"
+      ]
+    },
+    {
+      "content": "Na jakim diagramie UML pokażemy strukturę kooperacji?",
+      "answers": [
+        "Diagram komunikacji"
+      ],
+      "tags": [
+        "kol1",
+        "uml"
+      ]
+    },
+    {
+      "content": "Wymień rodzaje aktorów, jakie możemy stosować na diagramie przypadków użycia UML",
+      "answers": [
+        "Człowiek",
+        "System zewnętrzny",
+        "Urządzenie",
+        "Czas"
+      ],
+      "tags": [
+        "kol1",
+        "uml"
+      ]
+    },
+    {
+      "content": "Wymień główne fazy modelu kaskadowego",
+      "answers": [
+        "Określenie wymagań",
+        "Projektowanie",
+        "Implementacja",
+        "Testowanie",
+        "Konserwacja"
+      ],
+      "tags": [
+        "kol1",
+        "model-kaskadowy"
+      ]
+    },
+    {
+      "content": "Podaj rodzaje relacji występujących na diagramie klas",
+      "answers": [
+        "Zależności",
+        "Uogólnienie",
+        "Realizacja",
+        "Powiązanie"
+      ],
+      "tags": [
+        "kol1",
+        "uml"
+      ]
+    },
+    {
+      "content": "Podaj rodzaje relacji pomiędzy pakietami na diagramie pakietów",
+      "answers": [
+        "<<import>>",
+        "<<merge>>",
+        "<<access>>"
+      ],
+      "tags": [
+        "kol1",
+        "uml"
+      ]
+    },
+    {
+      "content": "Na jakich diagramach interakcji nie używamy fragmentów wyodrębnionych?",
+      "answers": [
+        "Komunikacji",
+        "Przeglądu interakcji",
+        "Harmonogramowania"
+      ],
+      "tags": [
+        "kol1",
+        "uml"
+      ]
+    },
+    {
+      "content": "Podaj 3 modele cyklu życia oprogramowania (omawiane w trakcie wykładu), inne niż model kaskadowy",
+      "answers": [
+        "Model ewolucyjny",
+        "Model komponentowy",
+        "Model spiralny"
+      ],
+      "tags": [
+        "kol1"
+      ]
+    },
+    {
+      "content": "Jaka jest główna idea modelu przyrostowego cyklu życia oprogramowania?",
+      "answers": [
+        "Wybiera się zbiór funkcji dla których następnie wykonuje się szczegółowo wszystkie fazy."
+      ],
+      "tags": [
+        "kol1"
+      ]
+    },
+    {
+      "content": "Wymień klasyfikatory, które możemy umieścić na diagramie sekwencji?",
+      "answers": [
+        "Atrybuty",
+        "Operacje",
+        "Interfejs pakiet"
+      ],
+      "tags": [
+        "kol1",
+        "uml"
+      ]
+    },
+    {
+      "content": "Metodyka obiektowa to:",
+      "answers": [
+        "zestaw pojęć, notacji, modeli formalnych, języków i sposobów postępowania wykorzystujących pojęcia obiektowości dla celów modelowania pojęciowego oraz analizy i projektowania systemów informatycznych."
+      ],
+      "tags": [
+        "kol2",
+        "metodyka-obiektowa"
+      ]
+    },
+    {
+      "content": "Jaka metodykę stworzył Booch?",
+      "answers": [
+        "G. Booch stworzył metodykę OOAD (Object-Oriented Analysis and Design) oraz był współtwórcą metodyki UML."
+      ],
+      "tags": [
+        "kol2",
+        "uml",
+        "metodyka-obiektowa"
+      ]
+    },
+    {
+      "content": "Kto stworzył OMT?",
+      "answers": [
+        "OMT (Object Modeling Technique) został stworzony przez J. Rumbaugh'a."
+      ],
+      "tags": [
+        "kol2",
+        "metodyka-obiektowa"
+      ]
+    },
+    {
+      "content": "Co to jest wzorzec projektowy?",
+      "answers": [
+        "Wzorzec projektowy to powtarzalne rozwiązanie danego zagadnienia projektowego; identyfikuje i specyfikuje on pewną abstrakcję, której poziom znajduje się powyżej poziomu abstrakcji pojedynczej klasy, instancji czy komponentu; dotyczy powtarzających się motywów architektury programów."
+      ],
+      "tags": [
+        "kol2",
+        "wzorce-projektowe"
+      ]
+    },
+    {
+      "content": "Cechy wzorców projektowych.",
+      "answers": [
+        "Opis wzorca składa się z 4 elementów: nazwa wzorca; zadanie wzorca; sposób rozwiązania problemu; ograniczenia i siły.",
+        "LUB Kluczowe elementy opisu wzorca: nazwa, intencja, problem, rozwiązanie, uczestnicy i współpracownicy, konsekwencje, implementacja."
+      ],
+      "tags": [
+        "kol2",
+        "wzorce-projektowe"
+      ]
+    },
+    {
+      "content": "Klasyfikacja wzorców projektowych.",
+      "answers": [
+        "Wzorce projektowe dzielimy na: wzorce konstrukcyjne, wzorce strukturalne, wzorce czynnościowe."
+      ],
+      "tags": [
+        "kol2",
+        "wzorce-projektowe"
+      ]
+    },
+    {
+      "content": "Intencją wzorca adaptera jest?",
+      "answers": [
+        "Intencją wzorca adaptera jest dopasowanie istniejącego obiektu do określonego interfejsu - sposobu wywołania."
+      ],
+      "tags": [
+        "kol2",
+        "wzorce-projektowe"
+      ]
+    },
+    {
+      "content": "Do czego służy wzorzec strategii?",
+      "answers": [
+        "Wzorzec strategii pozwala zmieniać algorytmy niezależnie od wykorzystujących je obiektów."
+      ],
+      "tags": [
+        "kol2",
+        "wzorce-projektowe"
+      ]
+    },
+    {
+      "content": "Intencja wzorca fabryki abstrakcyjnej.",
+      "answers": [
+        "Intencją wzorca fabryki abstrakcyjnej jest uzyskanie rodzin obiektów właściwych w określonym przypadku."
+      ],
+      "tags": [
+        "kol2",
+        "wzorce-projektowe"
+      ]
+    },
+    {
+      "content": "Cel wzorca metody szablonu.",
+      "answers": [
+        "Celem wzorca metody szablonu jest zdefiniowanie ogólnego szkieletu używanego algorytmu i pozostawienie implementacji niektórych jego kroków dla klas pochodnych."
+      ],
+      "tags": [
+        "kol2",
+        "wzorce-projektowe"
+      ]
+    },
+    {
+      "content": "celem fazy określenia wymagań jest udzielenie odpowiedzi na pytanie:",
+      "answers": [
+        "co i przy jakich ograniczeniach system ma robić?",
+        "wynikiem tej fazy jest zbiór wymagań, czyli zewnętrzny opis systemu"
+      ],
+      "tags": [
+        "kol2"
+      ]
+    },
+    {
+      "content": "",
+      "answers": [
+        ""
+      ],
+      "tags": [
+        "kol2"
+      ]
+    },
+    {
+      "content": "",
+      "answers": [
+        ""
+      ],
+      "tags": [
+        "kol2"
+      ]
+    },
+    {
+      "content": "",
+      "answers": [
+        ""
+      ],
+      "tags": [
+        "kol2"
+      ]
+    },
+    {
+      "content": "",
+      "answers": [
+        ""
+      ],
+      "tags": [
+        "kol2"
+      ]
+    },
+    {
+      "content": "",
+      "answers": [
+        ""
+      ],
+      "tags": [
+        "kol2"
+      ]
+    },
+    {
+      "content": "",
+      "answers": [
+        ""
+      ],
+      "tags": [
+        "kol2"
+      ]
+    },
+    {
+      "content": "",
+      "answers": [
+        ""
+      ],
+      "tags": [
+        "kol2"
+      ]
+    },
+    {
+      "content": "",
+      "answers": [
+        ""
+      ],
+      "tags": [
+        "kol2"
+      ]
+    },
+    {
+      "content": "",
+      "answers": [
+        ""
+      ],
+      "tags": [
+        "kol2"
+      ]
+    }
+  ]
+}

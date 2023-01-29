@@ -1,0 +1,15 @@
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.horizontal-scroll {
+  // display: flex;
+  // overflow-x: auto;
+  // flex-direction: row;
+  // flex-wrap: nowrap;
+
+  > * {
+    // flex-basis: content;
+    flex-grow: 1;
+  }
+}
