@@ -30,7 +30,7 @@ const IoDashboard = () => {
         <Path />
         <Filter />
         {
-          filteredQuestions.map(({content, answers}, i) => <Question key={i} content={content} answers={answers} />)
+          filteredQuestions.map(({content, answers, imgs}, i) => <Question key={i} content={content} answers={answers} imgs={imgs} />)
         }
       </MDBContainer>
     </>

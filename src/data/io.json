@@ -6,11 +6,12 @@
     "model-kaskadowy",
     "metodyka-obiektowa",
     "kol1",
-    "kol2"
+    "kol2",
+    "diagram"
   ],
   "questions": [
     {
-      "content": "Podaj kryteria o. wysokiej jakości:",
+      "content": "Podaj kryteria oprogramowania wysokiej jakości:",
       "answers": [
         "Zgodne z wymaganiami użytkownika",
         "Niezawodne",
@@ -273,7 +274,7 @@
     {
       "content": "Kto stworzył OMT?",
       "answers": [
-        "OMT (Object Modeling Technique) został stworzony przez J. Rumbaugh'a."
+        "OMT (Object Modeling Technique) został stworzony przez J. Rumbaugha."
       ],
       "tags": [
         "kol2",
@@ -322,6 +323,16 @@
       ]
     },
     {
+      "content": "Wzorzec adaptera służy do:",
+      "answers": [
+        "Dostosowania interfejsu klasy do interfejsu którego oczekuje użytkownik"
+      ],
+      "tags": [
+        "kol2",
+        "wzorce-projektowe"
+      ]
+    },
+    {
       "content": "Do czego służy wzorzec strategii?",
       "answers": [
         "Wzorzec strategii pozwala zmieniać algorytmy niezależnie od wykorzystujących je obiektów."
@@ -358,88 +369,241 @@
         "wynikiem tej fazy jest zbiór wymagań, czyli zewnętrzny opis systemu"
       ],
       "tags": [
-        "kol2"
+        "kol1",
+        "case",
+        "model-kaskadowy"
       ]
     },
     {
-      "content": "",
+      "content": "Logiczny model abstrahujący od szczegółów implementacyjnych to wynik fazy:",
+      "answers": [
+        "analizy"
+      ],
+      "tags": [
+        "kol1",
+        "case",
+        "model-kaskadowy"
+      ]
+    },
+    {
+      "content": "Celem fazy analizy jest udzielenie odpowiedzi na pytanie:",
+      "answers": [
+        "Jak system ma działać?",
+        "Wynikiem jest logiczny model systemu, opisujący sposób realizacji przez system postawionych wymagań, lecz abtrahujący od szczegółów implementacyjnych"
+      ],
+      "tags": [
+        "kol1",
+        "case",
+        "model-kaskadowy"
+      ]
+    },
+    {
+      "content": "Celem fazy projektowania jest udzielenie odpowiedzi na pytanie:",
+      "answers": [
+        "Jak system ma zostać zaimplementowany?",
+        "Wynikiem jest projekt oprogramowania, czyli opis sposobu implementacji"
+      ],
+      "tags": [
+        "kol1",
+        "case",
+        "model-kaskadowy"
+      ]
+    },
+    {
+      "content": "Testy statystyczne to testy, których celem jest:",
+      "answers": [
+        "Wykrycie przyczyn najczęstrzyszych błędów w programie"
+      ],
+      "tags": [
+        "kol1",
+        "case",
+        "model-kaskadowy"
+      ]
+    },
+    {
+      "content": "W których fazach modelu kaskadowego odbywa się testowanie oprogramowania modelu kaskadowego:",
+      "answers": [
+        "faza testowania"
+      ],
+      "tags": [
+        "kol1",
+        "model-kaskadowy",
+        "case"
+      ]
+    },
+    {
+      "content": "Trzy główne klasy modyfikacji w ramach konserwacji oprogramowania to:",
+      "answers": [
+        "modyfikacje poprawiające",
+        "modyfikacje ulepszające",
+        "modyfikacje dostosowujące"
+      ],
+      "tags": [
+        "kol1",
+        "model-kaskadowy"
+      ]
+    },
+    {
+      "content": "Metody/metodyki, na których oparty został język UML to:",
+      "answers": [
+        "OOSE",
+        "OMT",
+        "OOAD"
+      ],
+      "tags": [
+        "kol1",
+        "uml"
+      ]
+    },
+    {
+      "content": "Kluczowe elementy opisu wzorca:",
+      "answers": [
+        "nazwa, intencja, problem, rozwiązanie, uczestnicy i współpracownicy, konsekwencje, implementacja"
+      ],
+      "tags": [
+        "kol2",
+        "wzorce-projektowe"
+      ]
+    },
+    {
+      "content": "Wzorzec mostu (diagram wzorca mostu)",
+      "imgs": [
+        "https://i.ibb.co/p25xjp3/Screenshot-from-2023-01-30-03-13-03.png"
+      ],
       "answers": [
         ""
       ],
       "tags": [
-        "kol2"
+        "kol2",
+        "wzorce-projektowe",
+        "diagram"
       ]
     },
     {
-      "content": "",
+      "content": "Wzorzec dekoratora (diagram wzorca dekoratora)",
+      "imgs": [
+        "https://i.ibb.co/VJhnSBF/Screenshot-from-2023-01-30-03-15-17.png"
+      ],
       "answers": [
         ""
       ],
       "tags": [
-        "kol2"
+        "kol2",
+        "wzorce-projektowe",
+        "diagram"
       ]
     },
     {
-      "content": "",
+      "content": "Wzorzec obserwatora (diagram wzorca obserwatora)",
+      "imgs": [
+        "https://i.ibb.co/bXWMbWr/Screenshot-from-2023-01-30-03-16-35.png"
+      ],
       "answers": [
         ""
       ],
       "tags": [
-        "kol2"
+        "kol2",
+        "wzorce-projektowe",
+        "diagram"
       ]
     },
     {
-      "content": "",
+      "content": "Wzorzec fasady (diagram wzorca fasady)",
+      "imgs": [
+        "https://i.ibb.co/zmvmxm8/Screenshot-from-2023-01-30-03-18-25.png",
+        "https://i.ibb.co/HFw6TfW/Screenshot-from-2023-01-30-03-18-08.png"
+      ],
       "answers": [
         ""
       ],
       "tags": [
-        "kol2"
+        "kol2",
+        "wzorce-projektowe",
+        "diagram"
       ]
     },
     {
-      "content": "",
+      "content": "Wzorzec adaptera (diagram wzorca adaptera)",
+      "imgs": [
+        "https://i.ibb.co/TTjhWnB/Screenshot-from-2023-01-30-03-19-48.png"
+      ],
       "answers": [
         ""
       ],
       "tags": [
-        "kol2"
+        "kol2",
+        "wzorce-projektowe",
+        "diagram"
       ]
     },
     {
-      "content": "",
+      "content": "Wzorzec fabryki abstrakcyjnej (diagram wzorca fabryki abstrakcyjnej)",
+      "imgs": [
+        "https://i.ibb.co/M7DbNzX/Screenshot-from-2023-01-30-03-21-27.png"
+      ],
       "answers": [
         ""
       ],
       "tags": [
-        "kol2"
+        "kol2",
+        "wzorce-projektowe",
+        "diagram"
       ]
     },
     {
-      "content": "",
+      "content": "Wzorzec singletonu (diagram wzorca singleton)",
+      "imgs": [
+        "https://i.ibb.co/2KQ3Ryb/Screenshot-from-2023-01-30-03-22-17.png"
+      ],
       "answers": [
         ""
       ],
       "tags": [
-        "kol2"
+        "kol2",
+        "wzorce-projektowe",
+        "diagram"
       ]
     },
     {
-      "content": "",
+      "content": "Wzorzec metody fabryki (diagram wzorca metody fabryki)",
+      "imgs": [
+        "https://i.ibb.co/t3kKKHD/Screenshot-from-2023-01-30-03-23-56.png"
+      ],
       "answers": [
         ""
       ],
       "tags": [
-        "kol2"
+        "kol2",
+        "wzorce-projektowe",
+        "diagram"
       ]
     },
     {
-      "content": "",
+      "content": "Wzorzec strategii (diagram wzorca strategii)",
+      "imgs": [
+        "https://i.ibb.co/P5fDShv/Screenshot-from-2023-01-30-03-24-54.png"
+      ],
       "answers": [
         ""
       ],
       "tags": [
-        "kol2"
+        "kol2",
+        "wzorce-projektowe",
+        "diagram"
+      ]
+    },
+    {
+      "content": "Wzorzec metody szablonu (diagram wzorca metody szablonu)",
+      "imgs": [
+        "https://i.ibb.co/XZPm9Y6/Screenshot-from-2023-01-30-03-25-37.png"
+      ],
+      "answers": [
+        ""
+      ],
+      "tags": [
+        "kol2",
+        "wzorce-projektowe",
+        "diagram"
       ]
     }
   ]
