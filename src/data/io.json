@@ -740,13 +740,144 @@
       ]
     },
     {
-      "content": "Wzorzec MVC to:",
+      "content": "Wymień fazy modelu spiralnego:",
       "answers": [
-        "wzorzec architektoniczny służący do organizowania struktury aplikacji posiadających graficzne interfejsy użytkownika"
+        "Planowanie",
+        "Analiza ryzyka",
+        "Atestowanie",
+        "Konstrukcja"
       ],
       "tags": [
         "poprawa",
-        "wzorce-projektowe"
+        "metodyka-obiektowa"
+      ]
+    },
+    {
+      "content": "Interfejs w UML to:",
+      "answers": [
+        "Zestaw operacji, które wyznaczają usługi oferowane przez klasę, lub komponent"
+      ],
+      "tags": [
+        "poprawa",
+        "uml"
+      ]
+    },
+    {
+      "content": "Symbol klasy w UML zawiera:",
+      "answers": [
+        "nazwę",
+        "atrybuty",
+        "operacje"
+        ],
+      "tags": [
+        "poprawa",
+        "uml"
+      ]
+    },
+    {
+      "content": "Cechą charakterystyczną modelu \"realizacja kierowana dokumentami\" jest:",
+      "answers": [
+        "opracowanie dokumentów zawierających wyniki każdej fazy modz modelu kaskadowego"
+        ],
+      "tags": [
+        "poprawa",
+        "model-kaskadowy"
+      ]
+    },
+    {
+      "content": "Przypadek użycia w UML to:",
+      "answers": [
+        "opis zbioru ciągów akcji wykonywanych przez system"
+        ],
+      "tags": [
+        "poprawa",
+        "uml"
+      ]
+    },
+    {
+      "content": "Diagramy statyczne",
+      "answers": [
+        "klas",
+        "obiektow",
+        "koponentów",
+        "wdrożeń",
+        "pakietów",
+        "struktur połączonych"
+        ],
+      "tags": [
+        "poprawa",
+        "uml"
+      ]
+    },
+    {
+      "content": "Diagramy dynamiczne",
+      "answers": [
+        "przypadków użycia",
+        "sekwencji",
+        "komunikacji",
+        "Maszyny stanowej",
+        "czynności",
+        "Przeglądu interakcji",
+        "harmonogramowania"
+ 
+      ],
+      "tags": [
+        "poprawa",
+        "uml"
+      ]
+    },
+    {
+      "content": "Diagram sekwencji",
+      "answers": [
+        "uwypukla kolejność komunikatów w czasie"
+ 
+      ],
+      "tags": [
+        "poprawa",
+        "uml"
+      ]
+    },
+    {
+      "content": "Diagram komunikacji",
+      "answers": [
+        "opisuje organizację strukturalną obiektów, wymieniających komunikaty"
+ 
+      ],
+      "tags": [
+        "poprawa",
+        "uml"
+      ]
+    },
+    {
+      "content": "Diagram przeglądu interakcji",
+      "answers": [
+        "wizualizacja współpracujących ze sobą diagramów sekwencji lub komunikacji"
+      ],
+      "tags": [
+        "poprawa",
+        "uml"
+      ]
+    },
+    {
+      "content": "Diagram harmonogramowania",
+      "answers": [
+        "obrazuje zachowanie obiektu z naciskiem na dokładne określenie czasu"
+      ],
+      "tags": [
+        "poprawa",
+        "uml"
+      ]
+    },
+    {
+      "content": "Bloki konstrukcyjne UML:",
+      "answers": [
+        "elementy",
+        "związki",
+        "diagramy"
+      ],
+      "tags": [
+        "poprawa",
+        "uml"
       ]
     }
   ]
