@@ -7,7 +7,8 @@
     "metodyka-obiektowa",
     "kol1",
     "kol2",
-    "diagram"
+    "diagram",
+    "poprawa"
   ],
   "questions": [
     {
@@ -458,7 +459,13 @@
     {
       "content": "Kluczowe elementy opisu wzorca:",
       "answers": [
-        "nazwa, intencja, problem, rozwiązanie, uczestnicy i współpracownicy, konsekwencje, implementacja"
+        "nazwa",
+        "intencja",
+        "problem",
+        "rozwiązanie",
+        "uczestnicy",
+        "konsekwencje",
+        "implementacja"
       ],
       "tags": [
         "kol2",
@@ -604,6 +611,142 @@
         "kol2",
         "wzorce-projektowe",
         "diagram"
+      ]
+    },
+    {
+      "content": "Rodzaje podstanów występujące na diagramie stanów",
+      "answers": [
+        "sekwencyjne",
+        "współbieżne"
+      ],
+      "tags": [
+        "poprawa",
+        "uml"
+      ]
+    },
+    {
+      "content": "Interfejsy dzielimy na:",
+      "answers": [
+        "wymagany",
+        "udostępniany"
+      ],
+      "tags": [
+        "poprawa",
+        "uml"
+      ]
+    },
+    {
+      "content": "Diagram komponentów służy do:",
+      "answers": [
+        "Obrazowania uporządkowania komponentów i związków miedzy nimi"
+      ],
+      "tags": [
+        "poprawa",
+        "uml"
+      ]
+    },
+    {
+      "content": "Diagram komponentów służy do:",
+      "answers": [
+        "Obrazowania uporządkowania komponentów i związków miedzy nimi"
+      ],
+      "tags": [
+        "poprawa",
+        "uml"
+      ]
+    }
+    ,
+    {
+      "content": "Diagram przeglądu interakcji:",
+      "answers": [
+        ""
+      ],
+      "tags": [
+        "poprawa",
+        "uml"
+      ]
+    },
+    {
+      "content": "Rezultatem fazy analizy w modelu kaskadowym jest:",
+      "answers": [
+        "Logiczny model systemu, opisujący sposób realizacji przez system postawionych wymagań, lecz abstrahujący od szczegółów implementacyjnych"
+      ],
+      "tags": [
+        "poprawa",
+        "model-kaskadowy"
+      ]
+    },
+    {
+      "content": "Rezultatem fazy projektowania w modelu kaskadowym jest:",
+      "answers": [
+        "Projekt oprogramowania, czyli opis sposobu implementacji"
+      ],
+      "tags": [
+        "poprawa",
+        "model-kaskadowy"
+      ]
+    }
+    ,
+    {
+      "content": "Wymień 5 rodzjów testów oprogramowania",
+      "answers": [
+        "testy statyczne",
+        "testy dynamiczne",
+        "testy funkcjonalne",
+        "testy strukturalne",
+        "testy jednostkowe",
+        "testy systemu",
+        "?"
+      ],
+      "tags": [
+        "poprawa",
+        "model-kaskadowy"
+      ]
+    },
+    {
+      "content": "Wymień 5 rodzjów testów oprogramowania",
+      "answers": [
+        "testy statyczne",
+        "testy dynamiczne",
+        "testy funkcjonalne",
+        "testy strukturalne",
+        "testy jednostkowe",
+        "testy systemu",
+        "?"
+      ],
+      "tags": [
+        "poprawa",
+        "model-kaskadowy"
+      ]
+    },
+    {
+      "content": "Intencją wzorca obserwatora jest",
+      "answers": [
+        "definiuje zależność typu jeden-do-wielu pomiędzy obiektami"
+      ],
+      "tags": [
+        "poprawa",
+        "wzorce-projektowe"
+      ]
+    },
+    {
+      "content": "Wzorzec MVC to:",
+      "answers": [
+        "wzorzec architektoniczny służący do organizowania struktury aplikacji posiadających graficzne interfejsy użytkownika"
+      ],
+      "tags": [
+        "poprawa",
+        "wzorce-projektowe"
+      ]
+    },
+    {
+      "content": "Wzorzec MVC to:",
+      "answers": [
+        "wzorzec architektoniczny służący do organizowania struktury aplikacji posiadających graficzne interfejsy użytkownika"
+      ],
+      "tags": [
+        "poprawa",
+        "wzorce-projektowe"
       ]
     }
   ]
